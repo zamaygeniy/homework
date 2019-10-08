@@ -14,7 +14,7 @@
 | -------- | -------- | --------|  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Link to cpp-file](https://github.com/zamaygeniy/homework/blob/master/2019.10.02/task1.cpp)|(/)
 | 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Link to cpp-file](https://github.com/zamaygeniy/homework/blob/master/2019.10.02/task2.cpp)|(/)
-| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Link to cpp-file](https://github.com/zamaygeniy/homework/blob/master/2019.09.25/task3.cpp)|(/)
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Link to cpp-file](https://github.com/zamaygeniy/homework/blob/master/2019.10.02/task3.cpp)|(/)
 | 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-inprogress.png)|[Link to cpp-file]()|(/)
 
 ---
