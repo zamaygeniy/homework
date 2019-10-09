@@ -14,7 +14,7 @@ int main()
 			cout << "error. Input correct number" << endl;
 	}
 
-	i = float(i / 3) + 1;
+	i = i / 3 + 1;
 	switch (int(i))
 	{
 		case 2:
