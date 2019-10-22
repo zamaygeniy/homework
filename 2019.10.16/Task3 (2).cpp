@@ -128,8 +128,8 @@ void runTests()
 	int testNumber = 1;
 
 	changeDigitInNumberTests(testNumber++, 657444, 4, 3, 657333);
-	changeDigitInNumberTests(testNumber++, 100000, 0, 5, 155555);
-	changeDigitInNumberTests(testNumber++, 1222442, 2, 4, 1444444);
+	changeDigitInNumberTests(testNumber++, -100000, 0, 5, -155555);
+	changeDigitInNumberTests(testNumber++, -1222442, 2, 4, -1444444);
 	changeDigitInNumberTests(testNumber++, 1, 1, 0, 0);
 	changeDigitInNumberTests(testNumber++, 0, 0, 1, 1);
 }
