@@ -12,7 +12,7 @@
 ### 06.11.2019 
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
-| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|(https://github.com/zamaygeniy/homework/blob/master/2019.11.06/sort.cpp)|(/)
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[sort.cpp](https://github.com/zamaygeniy/homework/blob/master/2019.11.06/sort.cpp)|(/)
 
 ---
 
