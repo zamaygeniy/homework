@@ -9,6 +9,13 @@
 
 ---
 
+### 06.11.2019 
+| Task | Task Status | Additional/Comments |
+| -------- | -------- | --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-inprogress.png)|[Link to cpp-file](https://github.com/zamaygeniy/homework/blob/master/2019.11.06/sort.cpp))|(/)
+
+---
+
 ### 16.10.2019 
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
