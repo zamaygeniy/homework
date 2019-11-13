@@ -16,6 +16,14 @@
 
 ---
 
+
+### 30.10.2019 
+| Task | Task Status | Additional/Comments |
+| -------- | -------- | --------|  
+| 1,2,3,4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Task1234](https://github.com/zamaygeniy/homework/blob/master/2019.10.30/Task1234.cpp)|(/)
+
+---
+
 ### 16.10.2019 
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
