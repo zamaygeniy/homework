@@ -9,6 +9,13 @@
 
 ---
 
+### 08.11.2019
+| Task | Task Status | Additional/Comments |
+| -------- | -------- | --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Сортировка с генерацией больших массивов данных](https://github.com/zamaygeniy/homework/tree/master/2019.11.08)|(/)
+
+---
+
 ### 06.11.2019 
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
