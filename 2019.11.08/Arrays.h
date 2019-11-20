@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 void Swap(int&, int&);
 void Sort(int*, int);
 int* AllocateMemory(int);
