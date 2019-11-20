@@ -44,7 +44,6 @@ void menu()
 void runTests()
 {
 	int testNumber = 1;
-
 	SortTests(testNumber++, -10, 10);
 	SortTests(testNumber++, -3, 3);
 	SortTests(testNumber++, 0, 0);
@@ -55,20 +54,16 @@ void runTests()
 void workWithConsole()
 {
 	int n;
-
 	cout << "Enter the size of the array n = "; cin >> n;
-
 	cout << endl << "Enter the elements of the array" << endl;
 
 	int* array = allocateMemory(n);
 	int* arrayref = &array[0];
 	input_array(arrayref, n);
+	
 	sort(arrayref, n);
-
 	cout << "Sorted elements of the array:";
-
 	output_array(arrayref, n);
-
 	cout << endl;
 }
 
