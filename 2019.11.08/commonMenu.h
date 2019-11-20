@@ -36,6 +36,7 @@ void menu()
 		default:
 			cout << "Invalid operation. Try again." << endl;
 		}
+		
 		system("pause");
 		system("cls");
 	}
