@@ -96,8 +96,16 @@ int enterNumber()
 
 int changeDigitInNumber(int number, short digit, short digitchange)
 {
+	if (number == 0 && digit == 0)
+	{
+		return digitchange;
+	}
+	
 	int k;
-	if (number < 0) k = 1;
+	if (number < 0)
+	{
+		k = 1;
+	}
 	number = abs(number);
 
 	int copynumber = number, diff = digit - digitchange;
@@ -116,10 +124,10 @@ int changeDigitInNumber(int number, short digit, short digitchange)
 	}
 	
 	if (k = 1)
+	{
 		number = -number;
-	if (number == 0 && digit == 0)
-		number = digitchange;
-
+	}
+	
 	return number;
 }
 
