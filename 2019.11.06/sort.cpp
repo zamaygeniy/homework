@@ -55,7 +55,9 @@ void Sort(int* sourceArray, int n)
 		}
 		
 		if (min != i)
+		{
 			Swap(sourceArray[i], sourceArray[min]);
+		}
 	}
 }
 
