@@ -7,6 +7,13 @@
 
 ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) - выполнено
 
+---
+
+### 27.11.2019
+| Task | Task Status | Additional/Comments |
+| -------- | -------- | --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[ввод строки неизвестной длины](https://github.com/zamaygeniy/homework/blob/master/2019.11.27/unknownSize.cpp)|(/)
+
 
 ---
 
