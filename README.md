@@ -9,6 +9,13 @@
 
 ---
 
+### 18.12.2019
+| Task | Task Status | Additional/Comments |
+| -------- | -------- | --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[контрольная работа](https://github.com/zamaygeniy/homework/blob/master/2019.12.18)|(/)
+
+---
+
 ### 11.12.2019
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
