@@ -20,7 +20,6 @@ int main()
 	system("pause");
 }
 
-
 char* createRule(const char* source, int shift)
 {
 	int length = getlength(source), j = length - 1;;
@@ -32,7 +31,6 @@ char* createRule(const char* source, int shift)
 		rule[i] = source[j];
 		rule[j] = source[i];
 		j--;
-
 	}
 
 	int n = length;
@@ -84,6 +82,7 @@ int getlength(const char* source)
 	{
 		length++;
 	}
+	
 	return length;
 }
 
@@ -150,8 +149,6 @@ bool equals(const char* lhs, const char* rhs)
 
 bool equals(const int* lhs, const int* rhs, int n)
 {
-	int i = 0;
-
 	for (int i = 0; i < n; i++)
 	{
 		if (lhs[i] != rhs[i])
