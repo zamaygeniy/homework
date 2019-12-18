@@ -173,14 +173,14 @@ void createRuleTest()
 
 	cout << "Test for creation rule " << (equals(actual, expected) ? "Passed." : "Failed.") << endl;
 
-	//delete[] actual;
+	delete[] actual;
 
 	actual = createRule(source, 5);
 	expected = "UTSRQPONMLKJIHGFEDCBAZYXWV";
 
 	cout << "Test for creation rule " << (equals(actual, expected) ? "Passed." : "Failed.") << endl;
 
-	//delete[] actual;
+	delete[] actual;
 }
 
 void encodingTests()
@@ -201,7 +201,7 @@ void encodingTests()
 
 	delete[] encode;
 
-	//delete[] rule;
+	delete[] rule;
 
 	// new shift rule
 
@@ -219,7 +219,7 @@ void encodingTests()
 
 	delete[] encode;
 
-	//delete[] rule;
+	delete[] rule;
 }
 
 void decodingTests()
@@ -240,7 +240,7 @@ void decodingTests()
 
 	delete[] decode;
 
-	//delete[] rule;
+	delete[] rule;
 
 	// new shift rule
 
