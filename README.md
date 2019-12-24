@@ -9,6 +9,13 @@
 
 ---
 
+### 04.12.2019(долги)
+| Task | Task Status | Additional/Comments |
+| -------- | -------- | --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[сортировки слов по длине/алфавиту/  ](https://github.com/zamaygeniy/homework/blob/master/2019.12.04)|(/)
+
+---
+
 ### 18.12.2019
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
