@@ -50,7 +50,7 @@ char toUpper(char symbol)
 	return symbol;
 }
 
-int comapre(const char* lhs, int const lhsLength, const char* rhs, int const rhsLength, bool ordinal)
+int compare(const char* lhs, int const lhsLength, const char* rhs, int const rhsLength, bool ordinal)
 {
 	for (int i = 0; i <= lhsLength || i <= rhsLength; i++)
 	{
