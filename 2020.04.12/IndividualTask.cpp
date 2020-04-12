@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 int Side();
 void Input(int**, int);
 void Output(int**, int);
