@@ -12,7 +12,7 @@
 ### 13.05.2020
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
-| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[сортировка в классе](https://github.com/zamaygeniy/homework/blob/master/2020.05.13/IndividualTask8.cpp)|(/)
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[индивидуальное](https://github.com/zamaygeniy/homework/blob/master/2020.05.13/IndividualTask8.cpp)|(/)
 
 ---
 
