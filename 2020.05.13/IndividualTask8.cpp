@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 
 using namespace std;
@@ -50,28 +50,37 @@ void answer(const char* path1, const char* path2, int k, int l) {
 }
 
 void identityinit(int* matrix, int n) {
+
 	int i = 0;
-	for (int* p = matrix; p < matrix + n * n; p++){
+	for (int* p = matrix; p < matrix + n * n; p++)
+	{
 		*p = 0;
 	}
-	for (int* p = matrix; p < matrix + n * n; p += n + 1){
+	for (int* p = matrix; p < matrix + n * n; p += n + 1)
+	{
 		*p = 1;
 	}
 }
 
 void identitywrite(const char* path, int n, int k) {
 	ofstream out(path, ios::app, ios::binary);
-	int* a = creatematrix(n);
-	int size = n * n * sizeof(int);
-	for (int i = 1; i <= k; i++){
-		identityinit(a, n);
-		out.write((char*)a, size);
+	if (!out.is_open()) {
+		cout << "\nERROR: in file is not open\n";
 	}
-	delete[] a;
+	else {
+		int* a = creatematrix(n);
+		int size = n * n * sizeof(int);
+		for (int i = 1; i <= k; i++) {
+			identityinit(a, n);
+			out.write((char*)a, size);
+		}
+		delete[] a;
+	}
 	out.close();
 }
 
 void processing(const char* path1, const char* path2, int& k, int n, int& l) {
+
 	if (k > l && k != 1) {
 		int size = order(path2, l);
 		identitywrite(path2, size, k - l);
@@ -86,8 +95,10 @@ void processing(const char* path1, const char* path2, int& k, int n, int& l) {
 
 void show(int** matrix, int n)
 {
-	for (int i = 0; i < n; i++){
-		for (int j = 0; j < n; j++){
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
 			cout.width(5);
 			cout << matrix[i][j];
 		}
@@ -97,8 +108,10 @@ void show(int** matrix, int n)
 
 void show(int* matrix, int n, int m)
 {
-	for (int* p = matrix, count = 0; p < matrix + m * n; p++, count++){
-		if (!(count % m)){
+	for (int* p = matrix, count = 0; p < matrix + m * n; p++, count++)
+	{
+		if (!(count % m))
+		{
 			cout << endl;
 		}
 		cout.width(5);
@@ -108,8 +121,10 @@ void show(int* matrix, int n, int m)
 
 void show(int* matrix, int n)
 {
-	for (int* p = matrix, count = 0; p < matrix + n * n; p++, count++){
-		if (!(count % n)){
+	for (int* p = matrix, count = 0; p < matrix + n * n; p++, count++)
+	{
+		if (!(count % n))
+		{
 			cout << endl;
 		}
 		cout.width(5);
@@ -131,14 +146,16 @@ int* creatematrix(int n)
 
 void initmatrix(int* matrix, int n, int m)
 {
-	for (int* p = matrix; p < matrix + m * n; p++){
+	for (int* p = matrix; p < matrix + m * n; p++)
+	{
 		*p = rand() % 20;
 	}
 }
 
 void initmatrix(int* matrix, int n)
 {
-	for (int* p = matrix; p < matrix + n * n; p++){
+	for (int* p = matrix; p < matrix + n * n; p++)
+	{
 		*p = rand() % 20;
 	}
 }
@@ -146,61 +163,85 @@ void initmatrix(int* matrix, int n)
 void writebinary(const char* path, int n, int k)
 {
 	ofstream out(path, ios::binary);
-	//TODO validation
-	int* a = creatematrix(n);
-	int size = n * n * sizeof(int);
-	for (int i = 1; i <= k; i++){
-		initmatrix(a, n);
-		out.write((char*)a, size);
+	if (!out.is_open()) {
+		cout << "\nERROR: out file is not open\n";
 	}
-	delete[] a;
+	else {
+		int* a = creatematrix(n);
+		int size = n * n * sizeof(int);
+		for (int i = 1; i <= k; i++) {
+			initmatrix(a, n);
+			out.write((char*)a, size);
+		}
+		delete[] a;
+	}
 	out.close();
 }
 
 void readbinary(const char* path, int n)
 {
 	ifstream in(path, ios::binary);
-	int* a = creatematrix(n);
-	int size = n * n * sizeof(int);
-	while (in.read((char*)a, size)){
-		int** matrix = transform(a, n);
-		show(matrix, n);
-		cout << endl;
+	if (!in.is_open()) {
+		cout << "\nERROR: in file is not open\n";
 	}
-	delete[] a;
+	else {
+		int* a = creatematrix(n);
+		int size = n * n * sizeof(int);
+		while (in.read((char*)a, size)){
+			int** matrix = transform(a, n);
+			show(matrix, n);
+			cout << endl;
+		}
+		delete[] a;
+	}
 	in.close();
 }
 
 void readwnumber(const char* path, int l)
 {
 	ifstream in(path, ios::binary);
-	int n = order(path, l);
-	int size = n * n * sizeof(int);
-	int* a = creatematrix(n);
-	while (in.read((char*)a, size)){
-		int** matrix = transform(a, n);
-		show(matrix, n);
-		cout << endl;
+	if (!in.is_open()) {
+		cout << "\nERROR: in file is not open\n";
 	}
-	delete[] a;
+	else {
+		int n = order(path, l);
+		int size = n * n * sizeof(int);
+		int* a = creatematrix(n);
+
+		while (in.read((char*)a, size)){
+			int** matrix = transform(a, n);
+			show(matrix, n);
+			cout << endl;
+		}
+
+		delete[] a;
+	}
 	in.close();
 }
 
 int order(const char* path, int l)
 {
 	ifstream in(path, ios::binary);
-	in.seekg(0, ios::end);
-	int n = sqrt(in.tellg() / l / sizeof(int));
-	in.close();
+	int n;
+	if (!in.is_open()) {
+		cout << "\nERROR: in file is not open\n";
+	}
+	else {
+		in.seekg(0, ios::end);
+		n = sqrt(in.tellg() / l / sizeof(int));
+	}
 	return n;
+	in.close();
 }
 
 int** transform(int* arr, int n)
 {
 	int** matrix = new int* [n];
-	for (int i = 0; i < n; i++){
+	for (int i = 0; i < n; i++)
+	{
 		matrix[i] = new int[n];
-		for (int j = 0; j < n; j++){
+		for (int j = 0; j < n; j++)
+		{
 			matrix[i][j] = arr[i * n + j];
 		}
 	}
