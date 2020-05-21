@@ -9,6 +9,12 @@
 
 ---
 
+### ДОЛГИ
+| Task | Task Status | Additional/Comments |
+| -------- | -------- | --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[ПОИСК ОБРАЗА В СТРОКЕ АЛГОРИТМОМ БОЙЕРА-МУРА-ХОРСПУЛА](https://github.com/zamaygeniy/homework/blob/master/2020.05.13/IndividualTask8.cpp)|(/)
+---
+
 ### 13.05.2020
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
