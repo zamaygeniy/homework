@@ -1,6 +1,3 @@
-//
-// Created by 100nout.by on 016 16.03.20.
-//
 
 #ifndef DYNAMICARRAY_DYNAMICARRAY_H
 #define DYNAMICARRAY_DYNAMICARRAY_H
