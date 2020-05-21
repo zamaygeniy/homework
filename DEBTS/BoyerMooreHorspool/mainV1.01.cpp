@@ -3,7 +3,6 @@
 #include <fstream>
 #include <windows.h>
 #include <cstring>
-//"*.txt"
 
 using namespace std;
 
