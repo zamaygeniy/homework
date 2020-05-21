@@ -1,6 +1,3 @@
-//
-// Created by 100nout.by on 016 16.03.20.
-//
 
 #include "DynamicArray.h"
 #include <iostream>
