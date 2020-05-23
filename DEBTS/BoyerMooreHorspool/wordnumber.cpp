@@ -1,19 +1,19 @@
-#include "wordnumber.h"
+#include "WordNumber.h"
 #include <cstring>
 
-wordnumber::wordnumber(char* word, int number){
-    setword(word);
-    setnumber(number);
+WordNumber::WordNumber(char* word, int number){
+    setWord(word);
+    setNumber(number);
 }
-void wordnumber::setword(char* word){
+void WordNumber::setWord(char * word){
     strcpy(this->word, word);
 }
-void wordnumber::setnumber(int number){
+void WordNumber::setNumber(int number){
     this->number = number;
 }
-char* wordnumber::getword(){
+char* WordNumber::getWord(){
     return word;
 }
-int wordnumber::getnumber()const{
+int WordNumber::getNumber()const{
     return this->number;
 }

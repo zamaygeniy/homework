@@ -1,15 +1,15 @@
 #ifndef WORDCOUNTER_WORDNUMBER_H
 #define WORDCOUNTER_WORDNUMBER_H
 
-class wordnumber {
+class WordNumber {
 public:
     static const int N = 25;
-    wordnumber(){}
-    wordnumber(char*,int);
-    void setword(char*);
-    void setnumber(int);
-    char* getword();
-    int getnumber()const;
+    WordNumber(){}
+    WordNumber(char*,int);
+    void setWord(char*);
+    void setNumber(int);
+    char* getWord();
+    int getNumber()const;
 
 private:
     char word[N];
