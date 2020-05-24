@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cmath>
+
 using namespace std;
 
 void input(int**, int, const char*);
@@ -10,8 +11,7 @@ int** allocateMatrix(int);
 int* allocateArray(int);
 int matrixOrder(const char*);
 
-int main()
-{
+int main() {
     const char* inPath = "in.txt";
     const char* outPath = "out.txt";
     int side = matrixOrder(inPath);
