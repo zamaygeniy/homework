@@ -106,7 +106,7 @@ void Country::EnterCountry() {
 	cout << "Enter the population of the country:";
 	int population;
 	cin >> population;
-	if (population < 0) //ïîòîì äîäåëàþ
+	if (population < 0) //Ã¯Ã®Ã²Ã®Ã¬ Ã¤Ã®Ã¤Ã¥Ã«Ã Ã¾
 		population = 1;
 	cin.ignore();
 	cout << "Enter the country area:";
