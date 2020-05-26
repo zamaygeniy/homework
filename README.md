@@ -13,9 +13,10 @@
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[ПОИСК ОБРАЗА В СТРОКЕ АЛГОРИТМОМ БОЙЕРА-МУРА-ХОРСПУЛА](https://github.com/zamaygeniy/homework/blob/master/2020.05.13/IndividualTask8.cpp)|(/)
-| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[КЛАСС СЛОВО + ЧИСЛО](https://github.com/zamaygeniy/homework/tree/master/DEBTS/ClassWordNumber)|(/)
-| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[ИНДИВИДУАЛЬНОЕ С МАССИВАМИ](https://github.com/zamaygeniy/homework/blob/master/2020.04.12/IndividualTask.cpp)|(/)
-| 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[разархивированный старый динамический массив](https://github.com/zamaygeniy/homework/tree/master/2020.03.18)|(/)
+| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[ИНДИВИДУАЛЬНОЕ ИЗ ТЕЛЕГИ (СОРТИРОВКА/УДАЛЕНИЕ ПО ПРИЗНАКУ)](https://github.com/zamaygeniy/homework/tree/master/DEBTS/BinaryCountry)|(/)
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[КЛАСС СЛОВО + ЧИСЛО](https://github.com/zamaygeniy/homework/tree/master/DEBTS/ClassWordNumber)|(/)
+| 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[ИНДИВИДУАЛЬНОЕ С МАССИВАМИ](https://github.com/zamaygeniy/homework/blob/master/2020.04.12/IndividualTask.cpp)|(/)
+| 5 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[разархивированный старый динамический массив](https://github.com/zamaygeniy/homework/tree/master/2020.03.18)|(/)
 ---
 
 ### 13.05.2020
